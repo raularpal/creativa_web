@@ -999,6 +999,113 @@ img {
     }
 }
 
+/* iPhone optimization */
+@media (max-width: 480px) {
+    .header {
+        padding: 1rem;
+    }
+    
+    .hero {
+        min-height: 70vh;
+        padding: 3rem 0 2rem;
+    }
+    
+    .hero h1 {
+        font-size: 2.2rem;
+        line-height: 1.2;
+    }
+    
+    .hero p {
+        font-size: 1rem;
+        padding: 0 1rem;
+    }
+    
+    .section {
+        padding: 3rem 0;
+    }
+    
+    .section h2 {
+        font-size: 2rem;
+    }
+    
+    .container {
+        padding: 0 1rem;
+    }
+    
+    .qui-som-feature {
+        padding: 1.5rem;
+    }
+    
+    .qui-som-feature h3 {
+        font-size: 1.2rem;
+    }
+    
+    .qui-som-feature p {
+        font-size: 0.95rem;
+    }
+    
+    .contact-info {
+        padding: 1.5rem;
+    }
+    
+    .contact-info h3 {
+        font-size: 1.3rem;
+    }
+    
+    .footer {
+        padding: 2rem 0;
+    }
+    
+    .footer-grid {
+        gap: 1.5rem;
+    }
+    
+    .footer-column h4 {
+        font-size: 1.1rem;
+    }
+    
+    .btn {
+        padding: 0.8rem 1.5rem;
+        font-size: 0.95rem;
+    }
+    
+    .btn-whatsapp-header {
+        width: 44px;
+        height: 44px;
+    }
+}
+
+/* iPhone SE and small screens */
+@media (max-width: 375px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+    
+    .section h2 {
+        font-size: 1.8rem;
+    }
+    
+    .container {
+        padding: 0 0.8rem;
+    }
+    
+    .qui-som-feature {
+        padding: 1rem;
+    }
+    
+    .whatsapp-float {
+        width: 50px;
+        height: 50px;
+        bottom: 1rem;
+        right: 1rem;
+    }
+    
+    .whatsapp-float svg {
+        width: 24px;
+        height: 24px;
+    }
+}
+
 @media (max-width: 480px) {
     :root {
         --spacing-lg: 3rem;
